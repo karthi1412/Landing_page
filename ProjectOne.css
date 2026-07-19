@@ -2,6 +2,20 @@
     color: white;
 }
 
+/* Mobile View */
+@media screen and (max-width: 768px) {}
+
+/* Desktop view */
+@media screen and (max-width: 992px) {
+    .section-one .carousel-control-next {
+        right: -110px;
+    }
+
+    .section-one .carousel-control-prev {
+        left: -140px;
+    }
+}
+
 .Navbar-section {
     background: #171c35;
 }
@@ -102,7 +116,7 @@
 
 .section-two .head-two,
 .section-three .head-two,
-.section-four .head-two {
+.section-four .head-two, .faq .head-two{
     color: #171c35;
     font-size: 2.5rem;
     font-weight: 600;
@@ -263,16 +277,20 @@
 }
 
 .about .features-grid {
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 
 .about .features-grid .feature-card {
-    background-color: white;
+    background-color: whitesmoke;
     padding: 2rem;
     border-radius: 12px;
     border: 1px solid color-mix(in srgb, #1c2025, transparent 90%);
     height: 100%;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.about .features-grid .feature-card:hover {
+    background-color: lightgray;
 }
 
 .about .features-grid .feature-card .feature-icon {
@@ -287,6 +305,11 @@
     color: #3451b8;
     font-size: 1.5rem;
     margin-bottom: 1.25rem;
+}
+
+.about .features-grid .feature-card:hover .feature-icon {
+    background-color: lightgray;
+    border: 1px solid #3451b8;
 }
 
 .section-four {
@@ -320,3 +343,4 @@
     border: 2px solid #3451b8;
     transition: all 0.25s ease-in-out;
 }
+
