@@ -511,6 +511,7 @@
     font-weight: 600;
     text-transform: uppercase;
     font-family: var(--heading-font);
+    text-decoration: none;
 }
 
 .footer .footer-links {
