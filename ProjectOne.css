@@ -3,16 +3,7 @@
 }
 
 /* Mobile View */
-@media screen and (max-width: 768px) {
-    .section-one .carousel-control-next {
-        right: 0px;
-    }
-
-    .section-one .carousel-control-prev {
-        left: 0px;
-    }
-
-}
+@media screen and (max-width: 768px) {}
 
 /* Desktop view */
 @media screen and (min-width: 992px) {
